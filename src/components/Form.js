@@ -8,7 +8,7 @@ const Form = props => {
             onChange = {props.change}
             placeholder="Wpisz miasto"
             />
-            <button>Szukaj</button>
+            <button type='submit'>Szukaj</button>
         </form>
     )
 }
